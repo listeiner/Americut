@@ -54,7 +54,7 @@ nav img {
 
 .nav-links ul li::after {
     content: '';
-    width: 0%;
+    width: 0;
     height: 2px;
     background: rgb(69, 19, 12);
     /* background: #45190C */
