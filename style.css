@@ -31,7 +31,7 @@ nav {
 }
 
 nav img {
-    width: 200px;
+    width: 250px;
 }
 
 .nav-links {
@@ -115,6 +115,15 @@ nav .fa {
 /* Media Query Styles for Smaller Screens */
 @media(max-width: 700px){
     /* This applies styles to devices that have less than 700px screen width */
+    
+    .header p {
+        font-size: 13px;
+    }
+
+    /* nav img {
+        width: 200px;
+    } */
+
     .text-box h1 {
         font-size: 20px;
     }
