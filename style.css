@@ -8,6 +8,11 @@
 
 /* Header and Nav Styles */
 .header {
+    width: 100%;
+    background: #adaca6;
+}
+
+.textbox {  
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Americut.jpg);
@@ -16,12 +21,13 @@
     position: relative;
 }
 
+
 nav {
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    background: #adaca6;
+    
 }
 
 nav img {
@@ -70,6 +76,7 @@ nav img {
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    padding: 10px;
 }
 
 .text-box h1 {
@@ -162,6 +169,7 @@ nav .fa {
         padding: 30px;
     }
 }
+
 
 /* Services */
 
