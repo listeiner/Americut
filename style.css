@@ -305,6 +305,7 @@ h3 {
 
 .layer:hover {
     background: #832616;
+    opacity: 0.8;
     height: 100%;
     border-radius: 10px;
 }
