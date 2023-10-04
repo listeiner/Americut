@@ -288,7 +288,9 @@ h3 {
 
 .products-col img {
     width: 100%;
+    height: 100%;
     display: block;
+    border-radius: 10px;
 }
 
 .layer {
@@ -303,6 +305,8 @@ h3 {
 
 .layer:hover {
     background: rgba(226,0,0,0.7);
+    height: 100%;
+    border-radius: 10px;
 }
 
 .layer h3 {
