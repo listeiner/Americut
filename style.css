@@ -304,7 +304,7 @@ h3 {
 }
 
 .layer:hover {
-    background: rgba(226,0,0,0.7);
+    background: #832616;
     height: 100%;
     border-radius: 10px;
 }
