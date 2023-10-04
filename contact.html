@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="contact.css" />
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" />
+
+    <title>Americut Corporation</title>
+  </head>
+
+  <body>
+    <section class="header">
+      <nav>
+        <div>
+          <a href="https://americut.net"
+            ><img src="images/Americutlogo.png"
+          /></a>
+          <div>
+            <p>
+              PRECISION MOLDS & DIES <br />
+              <!-- SPECIALIZED MACHINING
+              <br />
+              PROTOTYPE TOOLING <br /> -->
+              EXCELLENCE IN WIRE-CUT EDM
+            </p>
+          </div>
+        </div>
+        <div class="nav-links" id="navLinks">
+          <!-- closing icon for when the screen width is less than 700px -->
+          <!-- On click, this will run the function hideMenu from index.js to hide the navigation menu on small screens -->
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="equipment.html">EQUIPMENT</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <!-- menu icon for when the screen width is less than 700px. -->
+        <!-- On click, this will run the function showMenu from index.js to open the navigation menu on small screens -->
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </section>
+
+    <!-- Contact Us Section -->
+
+    <section class="contact">
+      <h1>CONTACT US</h1>
+    </section>
+
+    <!-- Location -->
+
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2979.8714754070556!2d-80.16847998716379!3d41.68011907766502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883259959456eedb%3A0x41dbd3e043a686cc!2s14674%20Baldwin%20St%2C%20Meadville%2C%20PA%2016335!5e0!3m2!1sen!2sus!4v1696444189295!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-info">
+      <div class="row">
+        <div class="contact-info-col">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>14674 Baldwin St</h5>
+              <p>Meadville, PA, 16335</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>+1 (814) 337-8746</h5>
+              <p>Fax: +1 (814) 337-3681</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+              <h5>americut@windstream.net</h5>
+              <p>Email us your query</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="contact-info-col">
+          <form action="">
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter Your Name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter Email Address"
+              required
+            />
+            <input
+              type="text"
+              id="subject"
+              placeholder="Enter Your Subject"
+              required
+            />
+            <textarea
+              rows="8"
+              id="message"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button id="submit-btn" type="submit" class="hero-btn red-btn">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proof of concept (max) -->
+    <!-- <form> -->
+    <!-- <label for="subject">Subject</label>
+    <input id="subject" type="text" /> <br />
+    <label for="contact-info">Email or Phone</label>
+    <input id="contact-info" type="text" /><br />
+    <button id="submit-btn">Submit</button>
+    <a href="mailto:americut@windstream.net">shoot me an email!</a> -->
+    <!-- </form> -->
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <p>
+        © Americut Corporation <br />
+        14674 Baldwin St, Meadville, PA, 16335
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-tiktok"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>

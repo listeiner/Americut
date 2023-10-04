@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="about.css" />
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" />
+
+    <title>Americut Corporation</title>
+  </head>
+
+  <body>
+    <section class="header">
+      <nav>
+        <div>
+          <a href="https://americut.net"
+            ><img src="images/Americutlogo.png"
+          /></a>
+          <div>
+            <p>
+              PRECISION MOLDS & DIES <br />
+              <!-- SPECIALIZED MACHINING
+              <br />
+              PROTOTYPE TOOLING <br /> -->
+              EXCELLENCE IN WIRE-CUT EDM
+            </p>
+          </div>
+        </div>
+        <div class="nav-links" id="navLinks">
+          <!-- closing icon for when the screen width is less than 700px -->
+          <!-- On click, this will run the function hideMenu from index.js to hide the navigation menu on small screens -->
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="equipment.html">EQUIPMENT</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <!-- menu icon for when the screen width is less than 700px. -->
+        <!-- On click, this will run the function showMenu from index.js to open the navigation menu on small screens -->
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </section>
+    <!-- About Us Section -->
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>About Us</h1>
+          <p>
+            Celebrated as a full-service tool shop, Americut Corporation boasts
+            a stellar history of working with precision-focused vendors on tight
+            schedules. Our expertise covers progressive and extrusion die
+            design, plastic mold fabrication, and subcontract machining.
+            <br /><br />
+            Our advanced equipment includes (5) large wire EDMs, RAM EDMs, CNC
+            lathes, grinders, mills, hole poppers for ultra-small perforations,
+            and a CNC Fadal 40x20 and Mazak CNC mill. Proficient in materials
+            like D-2, carbide, stainless, graphite, and ceramics, we've recently
+            added the high-precision 2020 FANUC ALPHA C800iB-20. From the
+            tiniest to the most extensive projects, [Company Name] delivers with
+            excellence.
+            <br /><br />
+            Here at Americut Corporation, no project is too small or too large
+            for us to expertly handle!
+          </p>
+
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="images/Americut2.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <p>
+        © Americut Corporation <br />
+        14674 Baldwin St, Meadville, PA, 16335
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-tiktok"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
