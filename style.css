@@ -10,6 +10,10 @@ body {
     margin-top: 200px;
 }
 
+h1 {
+    color: #832616;
+}
+
 
 /* Header and Nav Styles */
 .header {
@@ -92,6 +96,7 @@ nav img {
 
 .text-box h1 {
     font-size: 50px;
+    color: #d6d5d0;
 }
 
 .text-box p {
@@ -113,15 +118,15 @@ nav img {
 }
 
 .hero-btn:hover {
-    border: 1px solid #45190C;
-    background: #45190C;
+    border: 1px solid #832616;
+    background: #832616;
     transition: 1s;
 }
 
 .red-btn {
-    border: 1px solid #45190C;
+    border: 1px solid #832616;
     background: transparent;
-    color: #45190C;
+    color: #832616;
 }
 
 .red-btn:hover {
@@ -137,6 +142,10 @@ nav .fa {
 @media(max-width: 700px){
     /* This applies styles to devices that have less than 700px screen width */
     
+    body {
+        margin-top: 145px;
+    }
+
     .header p {
         font-size: 13px;
     }
@@ -145,8 +154,14 @@ nav .fa {
         width: 200px;
     } */
 
+    h1 {
+        font-size: 36px;
+        font-weight: 600;
+    }
+
     .text-box h1 {
         font-size: 20px;
+        color: #d6d5d0;
     }
     .text-box h2 {
         font-size: 15px;
@@ -211,11 +226,6 @@ nav .fa {
     padding-top: 100px;
 }
 
-h1 {
-    font-size: 36px;
-    font-weight: 600;
-}
-
 p {
     color: #777;
     font-size: 14px;
@@ -264,7 +274,7 @@ h3 {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .products-col {
@@ -432,7 +442,7 @@ h3 {
 }
 
 .icons .fa {
-    color: #45190C;
+    color: #832616;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
