@@ -32,7 +32,7 @@ h1 {
 .textbox {  
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Americut.jpg);
+    background-image: url(images/AmericutFront.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -85,8 +85,9 @@ nav img {
 
 /* Text Box Styles */
 .text-box {
+    background-color: rgba(0, 0, 0, 0.459);
     width: 90%;
-    color: #d6d5d0;
+    color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
